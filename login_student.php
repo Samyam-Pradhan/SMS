@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $students = mysqli_fetch_assoc($result);
 
         if (password_verify($pass, $students['password'])) {
-            $_SESSION['students'] = $students['email'];
+            $_SESSION['student_id'] = $students['id'];
             header('Location: dashboard_student.php');
             exit();
         } else {

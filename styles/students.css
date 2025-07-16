@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.profile-box {
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+.profile-box h2 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.profile-box p {
+    margin: 8px 0;
+}
+
+.logout-btn {
+    background-color: #e74c3c; 
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
