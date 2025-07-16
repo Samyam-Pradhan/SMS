@@ -79,8 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <button type="submit">Add Student</button>
     </form>
-
-    <br>
-    <a href="dashboard_admin.php">← Back to Dashboard</a>
+    <a href="dashboard_admin.php" class="button-back">← Back to Dashboard</a>
+   
 </body>
 </html>

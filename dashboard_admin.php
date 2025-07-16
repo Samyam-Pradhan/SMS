@@ -12,5 +12,5 @@ if (!isset($_SESSION['admin'])) {
 <h2>Admin Dashboard</h2>
 <p>Welcome, <?= $_SESSION['admin'] ?> </p>
 <a href="add_student.php">Add Student</a> |
-<a href="view-students.php">View All Students</a> |
+<a href="view_students.php">View All Students</a> |
 <a href="logout.php">Logout</a>
